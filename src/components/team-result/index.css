@@ -1,0 +1,19 @@
+.result-board {
+	padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 603px;
+    margin-top: 44px;
+}
+.result-board table {
+    margin: 60px auto;
+}
+td.label {
+	text-align: right;
+}
+td.value {
+    padding-left: 5px;
+}
+.result {
+	text-align: center;
+}

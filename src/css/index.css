@@ -1,0 +1,7 @@
+/*reset css*/
+@import '../../node_modules/reset-css/reset';
+@import './common';
+@import '../components/header/index.css';
+@import '../components/player-card/index.css';
+@import '../components/available-players/index.css';
+@import '../components/team-result/index.css';

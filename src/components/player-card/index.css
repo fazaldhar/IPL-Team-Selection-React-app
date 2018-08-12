@@ -1,0 +1,33 @@
+.player-card {
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 10px 0px;
+    margin-bottom: 15px;
+}
+.player-card > div {
+	margin-right: 20px;
+}
+.player-card .player-img {
+	background-image: url('../../images/male.png');
+	width: 64px;
+	height: 64px;
+}
+
+.player-card .name-and-value span{
+	display: block;
+}
+
+.player-card .name-and-value span:nth-child(2) {
+    margin-top: 15px;
+}
+
+.player-card .player-rank ul {
+	margin-bottom: 0;
+}
+
+.player-card .name {
+    text-align: right;
+    display: inline-block;
+    width: 80px;
+}

@@ -1,0 +1,28 @@
+.available-players-list {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 603px;
+    overflow: auto;
+}
+
+.available-players-count {
+	margin-bottom: 20px;
+}
+
+/* width */
+.available-players-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.available-players-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+.available-players-list::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 10px;
+}
